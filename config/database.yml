@@ -17,10 +17,10 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: rails-bootstrap_development
+  database: wolox_hq_development
   pool: 5
-  username: rails-bootstrap
-  password: rails-bootstrap
+  username: wolox_hq
+  password: wolox_hq
   host: localhost
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -47,10 +47,10 @@ development:
 test: &test
   adapter: postgresql
   encoding: unicode
-  database: rails-bootstrap_test
+  database: wolox_hq_test
   pool: 5
-  username: rails-bootstrap
-  password: rails-bootstrap
+  username: wolox_hq
+  password: wolox_hq
   host: localhost
 
 staging:

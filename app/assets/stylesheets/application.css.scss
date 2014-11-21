@@ -17,3 +17,33 @@
   url('../assets/glyphicons-halflings-regular.ttf') format('truetype'),
   url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+
+.chart-wrapper {
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  margin-bottom: 10px;
+
+  .chart-title {
+    border-bottom: 1px solid #d7d7d7;
+    color: #666;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 7px 10px 4px;
+  }
+
+  .chart-stage {
+    overflow: hidden;
+    padding: 5px 10px;
+    position: relative;
+  }
+}
+
+.keen-metric {
+  background: #49c5b1;
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 10px 0;
+  text-align: center;
+}
